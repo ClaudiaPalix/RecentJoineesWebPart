@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "recent-joinees-web-part-client-side-solution",
+    "id": "e671f564-3ba9-494a-9531-5ededdb74bf5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "recent-joinees-web-part description"
+      },
+      "longDescription": {
+        "default": "recent-joinees-web-part description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "recent-joinees-web-part Feature",
+        "description": "The feature that activates elements of the recent-joinees-web-part solution.",
+        "id": "e2aa62a3-c2d9-4dd1-89d9-6164fbbcfcb4",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/recent-joinees-web-part.sppkg"
+  }
+}

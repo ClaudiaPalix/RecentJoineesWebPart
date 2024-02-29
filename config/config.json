@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "recent-joinees-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/recentJoinees/RecentJoineesWebPart.js",
+          "manifest": "./src/webparts/recentJoinees/RecentJoineesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RecentJoineesWebPartStrings": "lib/webparts/recentJoinees/loc/{locale}.js"
+  }
+}
